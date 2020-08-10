@@ -1,15 +1,3 @@
-## Saga - Back-end Java
-
-### Objetivo
-O objetivo deste desafio é observar como o candidato entende e implementa soluções a partir de requisitos propostos neste documento.
-
-Os critérios que levamos em conta na avaliação:
-- Features implementadas;
-- Legibilidade;
-- Código limpo;
-- Pontualidade (prazo);
-- Desempenho;
-
 ### Desafio
 
 Criar uma API (Rest/Restful) para gestão de usuários, que terão dois perfis de acesso: ADMINISTRADOR e VISITANTE.
@@ -30,13 +18,12 @@ Utilizaremos o cadastro do usuário para realizar a autenticação (login) e aut
 
 - Os dados deverão ser armazenados em banco de dados relacional (postgres, mysql, etc);
 - Ulitzar Java 11+;
-- Utilizar um framework web atual: Quarkuz, Spring-boot, Micronaut, Spark, etc..
+- Utilizar um framework web atual: Spring-boot
 
-###  Requisitos Extra
+###Utilização
+Mysql rodando com docker, comando para subir o docker
+- docker-compose -f "stack.yml" up -d
 
-Gostamos muito do perfil  full-stack, portanto, se você fez o teste de FRONT-END, seria um grande diferencial integrar o login e cadastro de usuário que foi feito anteriormente e passar a utilizar esse back-end;
-
-Se você ainda não o fez, sem problemas, volte aqui assim  que  possível :)
-
-### Entrega
-Crie um Pull-request e documente como podemos executar seu projeto
+Existe dois usuarios cadastrados para teste:
+-   usuario: admin@gmail senha: 1  com perfil Administrador
+-   usuario: user@gmail senha: 1  com perfil Usuario
